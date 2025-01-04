@@ -1,0 +1,17 @@
+{
+	"arrow function react": {
+  "prefix": "rfa",
+  "body": [
+    "const HomePage = ({children}: {children:React.ReactNode}) => {",
+    "  return (",
+    "  <div className=\"\">",
+    "    {children}",
+    "    </div>",
+    "  );",
+    "}",
+    "",
+    "export default HomePage;"
+  ],
+  "description": "arrow function react"
+}
+}
