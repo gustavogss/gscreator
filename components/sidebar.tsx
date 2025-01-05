@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Montserrat } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon } from "lucide-react";
+import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon, VoicemailIcon } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 
@@ -44,15 +44,22 @@ const routes = [
     color: "text-emerald-500"
   },
   {
+    label: "Voice Generation",
+    icon: VoicemailIcon,
+    href: "/voice",
+    color: "text-amber-400"
+  },
+  {
     label: "Code Generation",
     icon: Code,
     href: "/code",
-    color: "text-yellow-400"
+    color: "text-slate-400"
   },
   {
     label: "Settings",
     icon: Settings,
     href: "/settings",
+    color: "text-slate-100"
   },
 ]
 

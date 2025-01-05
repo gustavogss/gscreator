@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ArrowRight, Code, ImageIcon, MessageSquare, Music, VideoIcon } from "lucide-react";
+import { ArrowRight, Code, ImageIcon, MessageSquare, Music, VideoIcon, VoicemailIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const tools = [
@@ -35,11 +35,18 @@ const tools = [
     bgColor: "bg-emerald-500/10"
   },
   {
+    label: "Voice Generation",
+    icon: VoicemailIcon,
+    href: "/voice",
+    color: "text-amber-400",
+    bgColor: "bg-amber-400/10"
+  },
+  {
     label: "Code Generation",
     icon: Code,
     href: "/code",
-    color: "text-yellow-400",
-    bgColor: "bg-yellow-400/10"
+    color: "text-slate-400",
+    bgColor: "bg-slate-400/10"
   }
 ]
 
