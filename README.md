@@ -9,3 +9,4 @@
 - [Taildwind](https://tailwindcss.com/)
 - [Shadcn/ui](https://ui.shadcn.com/)
 - [Clerk](https://clerk.com/)
+- [OpenAI API](https://openai.com/)
