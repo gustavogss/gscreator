@@ -1,6 +1,6 @@
 # GS Creator
 
-- Plaforma de IA para texto, imagem, video e código
+- Aplicação tipo Saas para criação textos, imagens, código, audio, usando inteligência artificial
 
 ## Stacks :robot:
 
